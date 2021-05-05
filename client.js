@@ -19,9 +19,9 @@ const connect = function () {
   conn.on('connect', () => {
     conn.write("Name: nhu");
   });
-  conn.on('connect', () => {
-    conn.write("Move: up");
-  }); 
+  // conn.on('connect', () => {
+  //   conn.write("Move: up");
+  // }); 
   return conn;
 };
 
